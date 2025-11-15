@@ -1,14 +1,14 @@
-Health Data Lake & Hybrid Schema Project (Part II)
+# Health Data Lake & Hybrid Schema Project (Part II)
 
 A lightweight data lake + logical schema for integrating structured & unstructured health data
 
-📌 Overview
+# 📌 Overview
 
 This project implements a small-scale health analytics data lake, integrating two real-world public health datasets—BRFSS 2024 and CDC WONDER Provisional Mortality Statistics—and designing a hybrid logical schema that supports both structured and unstructured data.
 
 The goal is to simulate the foundation of an enterprise architecture used by an insurance company to analyze chronic disease risk and build downstream analytical pipelines.
 
-🗂️ Data Lake Architecture
+# 🗂️ Data Lake Architecture
 
 The data lake follows a Raw → Processed organization to ensure reproducibility:
 
@@ -26,7 +26,7 @@ data_lake/
 └── unstructured/
     └── (future PDFs, clinical notes, external docs)
 
-✨ Key Design Principles
+# ✨ Key Design Principles
 
 Immutability: Raw data is never modified; processed data can always be regenerated.
 
@@ -36,7 +36,7 @@ Schema alignment: Processed files map directly to the logical schema entities.
 
 Hybrid readiness: Structure supports PDFs, notes, and other unstructured artifacts.
 
-📊 Data Sources & Processing
+# 📊 Data Sources & Processing
 1. BRFSS 2024 (Structured Survey Data)
 
 Source: SAS XPT public-use file
@@ -87,7 +87,7 @@ External documents
 
 Metadata will be stored in UnstructuredDataMetadata, enabling hybrid integration.
 
-🗃️ Logical Schema (Relational Model)
+# 🗃️ Logical Schema (Relational Model)
 Entities
 Person
 Attribute	Description
@@ -117,7 +117,7 @@ UnstructuredDataMetadata
 
 | file_id (PK) | file_path | file_type | ingestion_ts | linked_sequence_id | linked_state_fips | description |
 
-🔗 Relationships
+# 🔗 Relationships
 
 Person ↔ Lifestyle → 1:1
 
@@ -129,7 +129,7 @@ UnstructuredDataMetadata ↔ Person → N:0/1
 
 UnstructuredDataMetadata ↔ StateHealthStats → N:0/1
 
-🧹 Normalization & Optimization
+# 🧹 Normalization & Optimization
 ✔ 1NF
 
 All attributes atomic
@@ -154,7 +154,7 @@ Unstructured metadata is separated
 
 Metadata entity bridges structured and unstructured datasets without redundancy.
 
-☁ Cloud Platform Architecture (Azure)
+# ☁ Cloud Platform Architecture (Azure)
 
 A cloud-native version of the data lake uses Azure Blob Storage:
 
@@ -181,9 +181,8 @@ state_fips = join key
 
 Metadata table supports hybrid integration
 
-📐 ER Diagram Placeholder
+# 📐 ER Diagram Placeholder
 
-(Insert your ERD image here)
 
 [Person]──1:1──[Lifestyle]
    │
@@ -193,7 +192,7 @@ Metadata table supports hybrid integration
    │
    └──0..N──[UnstructuredDataMetadata]
 
-🚀 How to Reproduce
+# 🚀 How to Reproduce
 
 Place raw datasets in data_lake/raw/
 
@@ -206,6 +205,6 @@ Generated CSVs will appear in data_lake/processed/
 
 Load processed tables into your SQL database following the logical schema
 
-📎 Acknowledgements
+# 📎 Acknowledgements
 
 BRFSS and CDC WONDER datasets are provided by the U.S. CDC.
