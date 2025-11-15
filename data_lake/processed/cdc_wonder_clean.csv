@@ -1,0 +1,437 @@
+state_fips,state_name,sex,age_group,deaths
+1.0,Alabama,Male,< 1 year,62.0
+1.0,Alabama,Male,1-4 years,14.0
+1.0,Alabama,Male,15-24 years,69.0
+1.0,Alabama,Male,25-34 years,127.0
+1.0,Alabama,Male,35-44 years,254.0
+1.0,Alabama,Male,45-54 years,465.0
+1.0,Alabama,Male,55-64 years,965.0
+1.0,Alabama,Male,65-74 years,1462.0
+1.0,Alabama,Male,75-84 years,1069.0
+1.0,Alabama,Male,85+ years,524.0
+2.0,Alaska,Male,55-64 years,21.0
+2.0,Alaska,Male,65-74 years,26.0
+2.0,Alaska,Male,75-84 years,19.0
+2.0,Alaska,Male,85+ years,11.0
+4.0,Arizona,Male,15-24 years,16.0
+4.0,Arizona,Male,25-34 years,35.0
+4.0,Arizona,Male,35-44 years,64.0
+4.0,Arizona,Male,45-54 years,107.0
+4.0,Arizona,Male,55-64 years,183.0
+4.0,Arizona,Male,65-74 years,357.0
+4.0,Arizona,Male,75-84 years,283.0
+4.0,Arizona,Male,85+ years,149.0
+5.0,Arkansas,Male,< 1 year,24.0
+5.0,Arkansas,Male,15-24 years,26.0
+5.0,Arkansas,Male,25-34 years,58.0
+5.0,Arkansas,Male,35-44 years,106.0
+5.0,Arkansas,Male,45-54 years,210.0
+5.0,Arkansas,Male,55-64 years,394.0
+5.0,Arkansas,Male,65-74 years,670.0
+5.0,Arkansas,Male,75-84 years,437.0
+5.0,Arkansas,Male,85+ years,230.0
+6.0,California,Male,< 1 year,35.0
+6.0,California,Male,1-4 years,11.0
+6.0,California,Male,5-14 years,15.0
+6.0,California,Male,15-24 years,80.0
+6.0,California,Male,25-34 years,205.0
+6.0,California,Male,35-44 years,394.0
+6.0,California,Male,45-54 years,693.0
+6.0,California,Male,55-64 years,1765.0
+6.0,California,Male,65-74 years,2971.0
+6.0,California,Male,75-84 years,2318.0
+6.0,California,Male,85+ years,1627.0
+8.0,Colorado,Male,25-34 years,19.0
+8.0,Colorado,Male,35-44 years,23.0
+8.0,Colorado,Male,45-54 years,53.0
+8.0,Colorado,Male,55-64 years,145.0
+8.0,Colorado,Male,65-74 years,217.0
+8.0,Colorado,Male,75-84 years,152.0
+8.0,Colorado,Male,85+ years,120.0
+9.0,Connecticut,Male,25-34 years,13.0
+9.0,Connecticut,Male,35-44 years,28.0
+9.0,Connecticut,Male,45-54 years,68.0
+9.0,Connecticut,Male,55-64 years,183.0
+9.0,Connecticut,Male,65-74 years,314.0
+9.0,Connecticut,Male,75-84 years,282.0
+9.0,Connecticut,Male,85+ years,209.0
+10.0,Delaware,Male,< 1 year,11.0
+10.0,Delaware,Male,25-34 years,15.0
+10.0,Delaware,Male,35-44 years,32.0
+10.0,Delaware,Male,45-54 years,67.0
+10.0,Delaware,Male,55-64 years,180.0
+10.0,Delaware,Male,65-74 years,249.0
+10.0,Delaware,Male,75-84 years,207.0
+10.0,Delaware,Male,85+ years,129.0
+11.0,District of Columbia,Male,25-34 years,16.0
+11.0,District of Columbia,Male,35-44 years,36.0
+11.0,District of Columbia,Male,45-54 years,84.0
+11.0,District of Columbia,Male,55-64 years,243.0
+11.0,District of Columbia,Male,65-74 years,388.0
+11.0,District of Columbia,Male,75-84 years,294.0
+11.0,District of Columbia,Male,85+ years,235.0
+12.0,Florida,Male,< 1 year,162.0
+12.0,Florida,Male,1-4 years,15.0
+12.0,Florida,Male,5-14 years,26.0
+12.0,Florida,Male,15-24 years,80.0
+12.0,Florida,Male,25-34 years,198.0
+12.0,Florida,Male,35-44 years,436.0
+12.0,Florida,Male,45-54 years,830.0
+12.0,Florida,Male,55-64 years,1923.0
+12.0,Florida,Male,65-74 years,2995.0
+12.0,Florida,Male,75-84 years,2533.0
+12.0,Florida,Male,85+ years,1702.0
+13.0,Georgia,Male,< 1 year,135.0
+13.0,Georgia,Male,1-4 years,17.0
+13.0,Georgia,Male,5-14 years,34.0
+13.0,Georgia,Male,15-24 years,123.0
+13.0,Georgia,Male,25-34 years,237.0
+13.0,Georgia,Male,35-44 years,493.0
+13.0,Georgia,Male,45-54 years,984.0
+13.0,Georgia,Male,55-64 years,2147.0
+13.0,Georgia,Male,65-74 years,3200.0
+13.0,Georgia,Male,75-84 years,2436.0
+13.0,Georgia,Male,85+ years,1238.0
+15.0,Hawaii,Male,65-74 years,18.0
+15.0,Hawaii,Male,75-84 years,15.0
+15.0,Hawaii,Male,85+ years,11.0
+16.0,Idaho,Male,65-74 years,11.0
+17.0,Illinois,Male,< 1 year,61.0
+17.0,Illinois,Male,1-4 years,10.0
+17.0,Illinois,Male,5-14 years,15.0
+17.0,Illinois,Male,15-24 years,44.0
+17.0,Illinois,Male,25-34 years,117.0
+17.0,Illinois,Male,35-44 years,210.0
+17.0,Illinois,Male,45-54 years,514.0
+17.0,Illinois,Male,55-64 years,1284.0
+17.0,Illinois,Male,65-74 years,2235.0
+17.0,Illinois,Male,75-84 years,1743.0
+17.0,Illinois,Male,85+ years,1097.0
+18.0,Indiana,Male,< 1 year,53.0
+18.0,Indiana,Male,15-24 years,32.0
+18.0,Indiana,Male,25-34 years,58.0
+18.0,Indiana,Male,35-44 years,121.0
+18.0,Indiana,Male,45-54 years,218.0
+18.0,Indiana,Male,55-64 years,521.0
+18.0,Indiana,Male,65-74 years,755.0
+18.0,Indiana,Male,75-84 years,542.0
+18.0,Indiana,Male,85+ years,343.0
+19.0,Iowa,Male,< 1 year,12.0
+19.0,Iowa,Male,35-44 years,16.0
+19.0,Iowa,Male,45-54 years,35.0
+19.0,Iowa,Male,55-64 years,81.0
+19.0,Iowa,Male,65-74 years,86.0
+19.0,Iowa,Male,75-84 years,61.0
+19.0,Iowa,Male,85+ years,35.0
+20.0,Kansas,Male,25-34 years,14.0
+20.0,Kansas,Male,35-44 years,27.0
+20.0,Kansas,Male,45-54 years,44.0
+20.0,Kansas,Male,55-64 years,120.0
+20.0,Kansas,Male,65-74 years,192.0
+20.0,Kansas,Male,75-84 years,128.0
+20.0,Kansas,Male,85+ years,69.0
+21.0,Kentucky,Male,< 1 year,14.0
+21.0,Kentucky,Male,15-24 years,14.0
+21.0,Kentucky,Male,25-34 years,37.0
+21.0,Kentucky,Male,35-44 years,77.0
+21.0,Kentucky,Male,45-54 years,159.0
+21.0,Kentucky,Male,55-64 years,329.0
+21.0,Kentucky,Male,65-74 years,510.0
+21.0,Kentucky,Male,75-84 years,329.0
+21.0,Kentucky,Male,85+ years,180.0
+22.0,Louisiana,Male,< 1 year,75.0
+22.0,Louisiana,Male,1-4 years,11.0
+22.0,Louisiana,Male,5-14 years,13.0
+22.0,Louisiana,Male,15-24 years,60.0
+22.0,Louisiana,Male,25-34 years,146.0
+22.0,Louisiana,Male,35-44 years,310.0
+22.0,Louisiana,Male,45-54 years,558.0
+22.0,Louisiana,Male,55-64 years,1327.0
+22.0,Louisiana,Male,65-74 years,2067.0
+22.0,Louisiana,Male,75-84 years,1510.0
+22.0,Louisiana,Male,85+ years,787.0
+23.0,Maine,Male,35-44 years,13.0
+23.0,Maine,Male,55-64 years,14.0
+23.0,Maine,Male,65-74 years,10.0
+23.0,Maine,Male,75-84 years,11.0
+24.0,Maryland,Male,< 1 year,50.0
+24.0,Maryland,Male,5-14 years,13.0
+24.0,Maryland,Male,15-24 years,28.0
+24.0,Maryland,Male,25-34 years,72.0
+24.0,Maryland,Male,35-44 years,201.0
+24.0,Maryland,Male,45-54 years,415.0
+24.0,Maryland,Male,55-64 years,1107.0
+24.0,Maryland,Male,65-74 years,1826.0
+24.0,Maryland,Male,75-84 years,1605.0
+24.0,Maryland,Male,85+ years,1107.0
+25.0,Massachusetts,Male,< 1 year,22.0
+25.0,Massachusetts,Male,15-24 years,14.0
+25.0,Massachusetts,Male,25-34 years,35.0
+25.0,Massachusetts,Male,35-44 years,57.0
+25.0,Massachusetts,Male,45-54 years,109.0
+25.0,Massachusetts,Male,55-64 years,253.0
+25.0,Massachusetts,Male,65-74 years,391.0
+25.0,Massachusetts,Male,75-84 years,361.0
+25.0,Massachusetts,Male,85+ years,255.0
+26.0,Michigan,Male,< 1 year,73.0
+26.0,Michigan,Male,15-24 years,33.0
+26.0,Michigan,Male,25-34 years,88.0
+26.0,Michigan,Male,35-44 years,140.0
+26.0,Michigan,Male,45-54 years,479.0
+26.0,Michigan,Male,55-64 years,1089.0
+26.0,Michigan,Male,65-74 years,1775.0
+26.0,Michigan,Male,75-84 years,1368.0
+26.0,Michigan,Male,85+ years,823.0
+27.0,Minnesota,Male,< 1 year,24.0
+27.0,Minnesota,Male,25-34 years,28.0
+27.0,Minnesota,Male,35-44 years,38.0
+27.0,Minnesota,Male,45-54 years,83.0
+27.0,Minnesota,Male,55-64 years,180.0
+27.0,Minnesota,Male,65-74 years,252.0
+27.0,Minnesota,Male,75-84 years,164.0
+27.0,Minnesota,Male,85+ years,69.0
+28.0,Mississippi,Male,< 1 year,66.0
+28.0,Mississippi,Male,5-14 years,21.0
+28.0,Mississippi,Male,15-24 years,83.0
+28.0,Mississippi,Male,25-34 years,138.0
+28.0,Mississippi,Male,35-44 years,280.0
+28.0,Mississippi,Male,45-54 years,519.0
+28.0,Mississippi,Male,55-64 years,1030.0
+28.0,Mississippi,Male,65-74 years,1542.0
+28.0,Mississippi,Male,75-84 years,1054.0
+28.0,Mississippi,Male,85+ years,520.0
+29.0,Missouri,Male,< 1 year,25.0
+29.0,Missouri,Male,15-24 years,31.0
+29.0,Missouri,Male,25-34 years,68.0
+29.0,Missouri,Male,35-44 years,131.0
+29.0,Missouri,Male,45-54 years,260.0
+29.0,Missouri,Male,55-64 years,556.0
+29.0,Missouri,Male,65-74 years,756.0
+29.0,Missouri,Male,75-84 years,528.0
+29.0,Missouri,Male,85+ years,298.0
+31.0,Nebraska,Male,35-44 years,20.0
+31.0,Nebraska,Male,45-54 years,26.0
+31.0,Nebraska,Male,55-64 years,76.0
+31.0,Nebraska,Male,65-74 years,85.0
+31.0,Nebraska,Male,75-84 years,62.0
+31.0,Nebraska,Male,85+ years,45.0
+32.0,Nevada,Male,< 1 year,15.0
+32.0,Nevada,Male,15-24 years,14.0
+32.0,Nevada,Male,25-34 years,43.0
+32.0,Nevada,Male,35-44 years,56.0
+32.0,Nevada,Male,45-54 years,123.0
+32.0,Nevada,Male,55-64 years,276.0
+32.0,Nevada,Male,65-74 years,379.0
+32.0,Nevada,Male,75-84 years,312.0
+32.0,Nevada,Male,85+ years,153.0
+34.0,New Jersey,Male,< 1 year,15.0
+34.0,New Jersey,Male,5-14 years,10.0
+34.0,New Jersey,Male,15-24 years,11.0
+34.0,New Jersey,Male,25-34 years,55.0
+34.0,New Jersey,Male,35-44 years,138.0
+34.0,New Jersey,Male,45-54 years,291.0
+34.0,New Jersey,Male,55-64 years,838.0
+34.0,New Jersey,Male,65-74 years,1116.0
+34.0,New Jersey,Male,75-84 years,1010.0
+34.0,New Jersey,Male,85+ years,712.0
+35.0,New Mexico,Male,35-44 years,11.0
+35.0,New Mexico,Male,45-54 years,15.0
+35.0,New Mexico,Male,55-64 years,42.0
+35.0,New Mexico,Male,65-74 years,48.0
+35.0,New Mexico,Male,75-84 years,42.0
+35.0,New Mexico,Male,85+ years,30.0
+36.0,New York,Male,< 1 year,38.0
+36.0,New York,Male,5-14 years,13.0
+36.0,New York,Male,15-24 years,45.0
+36.0,New York,Male,25-34 years,110.0
+36.0,New York,Male,35-44 years,249.0
+36.0,New York,Male,45-54 years,598.0
+36.0,New York,Male,55-64 years,1673.0
+36.0,New York,Male,65-74 years,2427.0
+36.0,New York,Male,75-84 years,2080.0
+36.0,New York,Male,85+ years,1444.0
+37.0,North Carolina,Male,< 1 year,113.0
+37.0,North Carolina,Male,5-14 years,17.0
+37.0,North Carolina,Male,15-24 years,136.0
+37.0,North Carolina,Male,25-34 years,265.0
+37.0,North Carolina,Male,35-44 years,438.0
+37.0,North Carolina,Male,45-54 years,850.0
+37.0,North Carolina,Male,55-64 years,1871.0
+37.0,North Carolina,Male,65-74 years,2951.0
+37.0,North Carolina,Male,75-84 years,2332.0
+37.0,North Carolina,Male,85+ years,1275.0
+39.0,Ohio,Male,< 1 year,95.0
+39.0,Ohio,Male,1-4 years,13.0
+39.0,Ohio,Male,5-14 years,10.0
+39.0,Ohio,Male,15-24 years,34.0
+39.0,Ohio,Male,25-34 years,118.0
+39.0,Ohio,Male,35-44 years,229.0
+39.0,Ohio,Male,45-54 years,481.0
+39.0,Ohio,Male,55-64 years,1159.0
+39.0,Ohio,Male,65-74 years,1868.0
+39.0,Ohio,Male,75-84 years,1367.0
+39.0,Ohio,Male,85+ years,873.0
+40.0,Oklahoma,Male,< 1 year,21.0
+40.0,Oklahoma,Male,15-24 years,23.0
+40.0,Oklahoma,Male,25-34 years,44.0
+40.0,Oklahoma,Male,35-44 years,76.0
+40.0,Oklahoma,Male,45-54 years,118.0
+40.0,Oklahoma,Male,55-64 years,273.0
+40.0,Oklahoma,Male,65-74 years,392.0
+40.0,Oklahoma,Male,75-84 years,267.0
+40.0,Oklahoma,Male,85+ years,140.0
+41.0,Oregon,Male,25-34 years,17.0
+41.0,Oregon,Male,35-44 years,24.0
+41.0,Oregon,Male,45-54 years,35.0
+41.0,Oregon,Male,55-64 years,74.0
+41.0,Oregon,Male,65-74 years,100.0
+41.0,Oregon,Male,75-84 years,62.0
+41.0,Oregon,Male,85+ years,30.0
+42.0,Pennsylvania,Male,< 1 year,51.0
+42.0,Pennsylvania,Male,5-14 years,13.0
+42.0,Pennsylvania,Male,15-24 years,29.0
+42.0,Pennsylvania,Male,25-34 years,117.0
+42.0,Pennsylvania,Male,35-44 years,207.0
+42.0,Pennsylvania,Male,45-54 years,403.0
+42.0,Pennsylvania,Male,55-64 years,1034.0
+42.0,Pennsylvania,Male,65-74 years,1587.0
+42.0,Pennsylvania,Male,75-84 years,1167.0
+42.0,Pennsylvania,Male,85+ years,752.0
+44.0,Rhode Island,Male,35-44 years,11.0
+44.0,Rhode Island,Male,45-54 years,14.0
+44.0,Rhode Island,Male,55-64 years,20.0
+44.0,Rhode Island,Male,65-74 years,57.0
+44.0,Rhode Island,Male,75-84 years,33.0
+44.0,Rhode Island,Male,85+ years,23.0
+45.0,South Carolina,Male,< 1 year,78.0
+45.0,South Carolina,Male,15-24 years,46.0
+45.0,South Carolina,Male,25-34 years,95.0
+45.0,South Carolina,Male,35-44 years,231.0
+45.0,South Carolina,Male,45-54 years,445.0
+45.0,South Carolina,Male,55-64 years,1107.0
+45.0,South Carolina,Male,65-74 years,1811.0
+45.0,South Carolina,Male,75-84 years,1455.0
+45.0,South Carolina,Male,85+ years,778.0
+46.0,South Dakota,Male,65-74 years,10.0
+47.0,Tennessee,Male,< 1 year,52.0
+47.0,Tennessee,Male,15-24 years,41.0
+47.0,Tennessee,Male,25-34 years,92.0
+47.0,Tennessee,Male,35-44 years,211.0
+47.0,Tennessee,Male,45-54 years,460.0
+47.0,Tennessee,Male,55-64 years,1017.0
+47.0,Tennessee,Male,65-74 years,1629.0
+47.0,Tennessee,Male,75-84 years,1063.0
+47.0,Tennessee,Male,85+ years,494.0
+48.0,Texas,Male,< 1 year,162.0
+48.0,Texas,Male,1-4 years,20.0
+48.0,Texas,Male,5-14 years,27.0
+48.0,Texas,Male,15-24 years,98.0
+48.0,Texas,Male,25-34 years,215.0
+48.0,Texas,Male,35-44 years,470.0
+48.0,Texas,Male,45-54 years,959.0
+48.0,Texas,Male,55-64 years,2306.0
+48.0,Texas,Male,65-74 years,3842.0
+48.0,Texas,Male,75-84 years,2817.0
+48.0,Texas,Male,85+ years,1485.0
+49.0,Utah,Male,45-54 years,11.0
+49.0,Utah,Male,55-64 years,15.0
+49.0,Utah,Male,65-74 years,24.0
+49.0,Utah,Male,75-84 years,13.0
+49.0,Utah,Male,85+ years,10.0
+51.0,Virginia,Male,< 1 year,62.0
+51.0,Virginia,Male,5-14 years,22.0
+51.0,Virginia,Male,15-24 years,54.0
+51.0,Virginia,Male,25-34 years,144.0
+51.0,Virginia,Male,35-44 years,314.0
+51.0,Virginia,Male,45-54 years,549.0
+51.0,Virginia,Male,55-64 years,1304.0
+51.0,Virginia,Male,65-74 years,2005.0
+51.0,Virginia,Male,75-84 years,1720.0
+51.0,Virginia,Male,85+ years,1053.0
+53.0,Washington,Male,< 1 year,15.0
+53.0,Washington,Male,15-24 years,16.0
+53.0,Washington,Male,25-34 years,36.0
+53.0,Washington,Male,35-44 years,51.0
+53.0,Washington,Male,45-54 years,84.0
+53.0,Washington,Male,55-64 years,202.0
+53.0,Washington,Male,65-74 years,260.0
+53.0,Washington,Male,75-84 years,180.0
+53.0,Washington,Male,85+ years,99.0
+54.0,West Virginia,Male,35-44 years,11.0
+54.0,West Virginia,Male,45-54 years,27.0
+54.0,West Virginia,Male,55-64 years,51.0
+54.0,West Virginia,Male,65-74 years,111.0
+54.0,West Virginia,Male,75-84 years,84.0
+54.0,West Virginia,Male,85+ years,31.0
+55.0,Wisconsin,Male,< 1 year,24.0
+55.0,Wisconsin,Male,15-24 years,11.0
+55.0,Wisconsin,Male,25-34 years,21.0
+55.0,Wisconsin,Male,35-44 years,36.0
+55.0,Wisconsin,Male,45-54 years,111.0
+55.0,Wisconsin,Male,55-64 years,279.0
+55.0,Wisconsin,Male,65-74 years,363.0
+55.0,Wisconsin,Male,75-84 years,218.0
+55.0,Wisconsin,Male,85+ years,128.0
+56.0,Wyoming,Male,65-74 years,10.0
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

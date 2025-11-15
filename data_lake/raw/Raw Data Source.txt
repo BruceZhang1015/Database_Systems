@@ -1,0 +1,32 @@
+Raw data files are not included in this submission due to their large size. 
+Below are the data sources and direct links used in this project.
+
+----------------------------------------------------------------------
+1. BRFSS 2024 (Behavioral Risk Factor Surveillance System)
+----------------------------------------------------------------------
+Source: Centers for Disease Control and Prevention (CDC)
+Format: SAS Transport File (.XPT)
+Description: Contains individual-level survey responses on health behaviors,
+lifestyle factors, chronic disease conditions, and demographics.
+
+Public download link:
+https://www.cdc.gov/brfss/annual_data/annual_2024.html
+
+----------------------------------------------------------------------
+2. CDC WONDER – Provisional Mortality Statistics
+----------------------------------------------------------------------
+Source: CDC WONDER Online Query System
+Format: Excel Export (.xls)
+Description: Contains state-level mortality counts grouped by age group,
+sex, and residence.
+
+Public access:
+https://wonder.cdc.gov/mcd.html
+
+Note: when requesting data, only data from year 2024, grouping by Ten-Year Age Groups and Residence Census State was selected.
+
+----------------------------------------------------------------------
+Note:
+Only cleaned and processed datasets required for the logical schema are included
+in the /processed directory. Raw files can be re-downloaded anytime from the 
+official sources listed above.

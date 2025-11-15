@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram name="Logical Schema" id="txF5F2onZq3d0KDXOdwR">
+    <mxGraphModel dx="2852" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Kjqt-i-aH4KvLrq-BHOE-2" value="&lt;b&gt;Person&lt;/b&gt;&lt;br&gt;----------------------&lt;br&gt;sequence_id (PK)&lt;br&gt;state_fips (FK)&lt;br&gt;age&lt;br&gt;gender&lt;br&gt;education_level&lt;br&gt;income_level" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="640" y="300" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Kjqt-i-aH4KvLrq-BHOE-3" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;Lifestyle&lt;/b&gt;&lt;/div&gt;----------------------&lt;br&gt;sequence_id (PK, FK)&lt;br&gt;smoking_status&lt;br&gt;alcohol_use&lt;br&gt;heavy_drinker&lt;br&gt;exercise_status&lt;br&gt;bmi" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="300" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Kjqt-i-aH4KvLrq-BHOE-4" value="&lt;font&gt;&lt;b&gt;HealthOutcome&lt;/b&gt;&lt;br&gt;----------------------&lt;br&gt;sequence_id (PK, FK)&lt;br&gt;diabetes_status&lt;br&gt;heart_disease&lt;br&gt;stroke_history&lt;br&gt;flu_shot&lt;br&gt;pneumonia_shot&lt;/font&gt;" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=1;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="640" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Kjqt-i-aH4KvLrq-BHOE-5" value="&lt;font&gt;&lt;b&gt;StateHealthStats&lt;br&gt;&lt;/b&gt;----------------------&lt;br&gt;state_fips (PK)&lt;br&gt;state_name&lt;br&gt;age_group&lt;br&gt;deaths&lt;/font&gt;" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="670" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Kjqt-i-aH4KvLrq-BHOE-9" value="&lt;b&gt;UnstructuredDataMetadata&lt;/b&gt;&lt;br&gt;----------------------&lt;br&gt;file_id (PK)&lt;div&gt;file_path&lt;/div&gt;&lt;div&gt;file_type&lt;/div&gt;&lt;div&gt;ingestion_ts&lt;/div&gt;&lt;div&gt;linked_sequence_id (FK)&lt;/div&gt;&lt;div&gt;linked_state_fips (FK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Kjqt-i-aH4KvLrq-BHOE-10" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=-0.007;entryY=0.664;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Kjqt-i-aH4KvLrq-BHOE-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="760" y="390" as="sourcePoint" />
+            <mxPoint x="860" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kjqt-i-aH4KvLrq-BHOE-11" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=0.975;exitY=0.864;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.021;entryY=0.42;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Kjqt-i-aH4KvLrq-BHOE-2" target="Kjqt-i-aH4KvLrq-BHOE-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="890" y="620" as="sourcePoint" />
+            <mxPoint x="990" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kjqt-i-aH4KvLrq-BHOE-13" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Kjqt-i-aH4KvLrq-BHOE-5" target="Kjqt-i-aH4KvLrq-BHOE-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="700" y="530" as="sourcePoint" />
+            <mxPoint x="830" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kjqt-i-aH4KvLrq-BHOE-14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERzeroToOne;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Kjqt-i-aH4KvLrq-BHOE-2" target="Kjqt-i-aH4KvLrq-BHOE-9">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="560" y="510" as="sourcePoint" />
+            <mxPoint x="660" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kjqt-i-aH4KvLrq-BHOE-15" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERzeroToOne;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kjqt-i-aH4KvLrq-BHOE-9" target="Kjqt-i-aH4KvLrq-BHOE-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="700" y="550" as="sourcePoint" />
+            <mxPoint x="610" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
