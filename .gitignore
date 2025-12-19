@@ -1,0 +1,17 @@
+.idea/
+.venv/
+input_images/
+.env
+.toml
+parsed_documents/
+master_dataset_complete.json
+change_one.py
+# Ignore virtual environment directory
+mathlabs/
+
+# Ignore Python cache files anywhere in the repo
+__pycache__/
+
+# Ignore Python compiled files
+*.pyc
+*.toml

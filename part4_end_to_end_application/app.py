@@ -2,6 +2,15 @@ import pandas as pd
 import numpy as np
 import joblib
 from typing import Tuple
+from database import store_claim_risk_result
+
+from dotenv import load_dotenv
+load_dotenv()
+
+from pymongo import MongoClient
+from datetime import datetime
+import os
+from typing import Dict, Any
 
 
 # --------------------------------------------------
