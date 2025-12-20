@@ -83,7 +83,7 @@ The project is framed around a realistic **insurance / health analytics use case
 
 * Erwin Data Modeler 15.0 (logical + physical configuration)
 
-📄 **Documentation:** See *Part I Report* in `docs/` for full modeling rationale, validation against business cases, and subject-area breakdowns.
+📄 **Documentation:** See *Part I Report* in `part1_conceptual_model/` for full modeling rationale, validation against business cases, and subject-area breakdowns.
 
 ---
 
@@ -106,7 +106,7 @@ The project is framed around a realistic **insurance / health analytics use case
 * Introduced `UnstructuredDataMetadata` to support hybrid integration
 * Fully normalized to **3NF**, with clear PK/FK relationships
 
-📄 **Documentation:** See *Part II Report* and the original Part II README in `docs/` for schema definitions, normalization explanations, and cloud mapping.
+📄 **Documentation:** See *Part II Report* and the original Part II README in `part2_logical_model/` for schema definitions, normalization explanations, and cloud mapping.
 
 ---
 
@@ -133,7 +133,7 @@ The project is framed around a realistic **insurance / health analytics use case
   * Random Forest (nonlinear model)
 * Demonstrated realistic performance with meaningful AUC separation
 
-📄 **Documentation:** See *Part III Report* in `docs/` for SQL definitions, indexing strategy, ML results, and evaluation plots.
+📄 **Documentation:** See *Part III Report* in `part3_physical_model_ml/` for SQL definitions, indexing strategy, ML results, and evaluation plots.
 ## 🚀 How to Reproduce (Core Components)
 
 1. Place raw datasets in:
@@ -190,6 +190,5 @@ The final decision and associated metadata are persisted to MongoDB Atlas.
 This workflow demonstrates how enterprise data modeling, physical database design, and machine learning can be integrated into a cohesive, production-style system.
 
 
-📄 **Documentation:** See *Part IV Report* in `docs/` for architectural synthesis and reflections.
 
 ---
