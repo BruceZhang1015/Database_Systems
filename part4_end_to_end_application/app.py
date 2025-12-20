@@ -3,8 +3,7 @@ from datetime import date
 from pathlib import Path
 import streamlit as st
 
-from dotenv import load_dotenv
-load_dotenv()
+
 
 from ml_module import ClaimRiskModel
 from database import store_claim_risk_result
