@@ -111,17 +111,45 @@ The project is framed around a realistic **insurance / health analytics use case
 📄 **Documentation:** See *Part III Report* in `docs/` for SQL definitions, indexing strategy, ML results, and evaluation plots.
 
 ---
+## Part IV – End-to-end Application
 
-## Part IV – End-to-End Architecture Integration (Summary)
+Goal: Operationalize the data architecture and machine learning pipeline into a fully functional, end-to-end underwriting application that supports real-time, data-driven decision making.
 
-**Goal:** Demonstrate how conceptual modeling, data lake design, logical schemas, and physical databases integrate into a coherent enterprise system.
+System Overview
 
-### Highlights
+In Part IV, the project transitions from offline analytics to a deployable application layer. A trained machine learning model is embedded within an interactive web application that enables users to submit underwriting requests, receive real-time risk assessments, and persist decisions to an operational datastore.
 
-* End-to-end traceability from business requirements → analytics-ready database
-* Clear separation of concerns across architecture layers
-* Cloud-ready design (Azure / MongoDB Atlas compatible)
-* Database layer explicitly designed to support **downstream ML pipelines**
+The system integrates the following components:
+
+Application Layer:
+A Streamlit-based web interface for submitting insurance quote or policy update requests and visualizing prediction results.
+
+Machine Learning Layer:
+A trained Random Forest classification model serialized as a versioned artifact (joblib) and loaded at runtime to predict claim likelihood.
+
+Data Persistence Layer:
+MongoDB Atlas is used as an online operational database to store underwriting decisions, predicted risk scores, and input feature snapshots for auditing and future analysis.
+
+End-to-End Workflow
+
+A user submits an underwriting request through the Streamlit interface.
+
+Input features are validated and aligned with the training schema.
+
+The machine learning model predicts the probability of a future insurance claim.
+
+The probability is mapped to a business-level risk tier (Low, Medium, High).
+
+The system applies decision logic:
+
+Low / Medium risk → automatic approval
+
+High risk → escalation to manual review
+
+The final decision and associated metadata are persisted to MongoDB Atlas.
+
+This workflow demonstrates how enterprise data modeling, physical database design, and machine learning can be integrated into a cohesive, production-style system.
+
 
 📄 **Documentation:** See *Part IV Report* in `docs/` for architectural synthesis and reflections.
 
